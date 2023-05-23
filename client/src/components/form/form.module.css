@@ -1,0 +1,172 @@
+.Formulario{
+    /*background-image: url("https://wallpaperset.com/w/full/8/a/2/289454.jpg");*/
+    background-image: url("C:\Users\Fer\Desktop\SoyHenry\PI\PI-Dogs-main\client\src\components\form\images\dog-birthday-party.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    border: #2E282A;
+    color: black;
+    width: auto;
+    border-radius: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 40px;
+    height: 1130px;
+    padding: 20px 0px 145px 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+}
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    width: 500px;
+    height: 20px;
+}
+.inputs input {
+    width: 470px;
+    height: 25px;
+    justify-content: center;
+}
+
+strong {
+    font-size: medium;
+    color: red;
+    background-color: rgba(0, 0, 0, 0.911);
+}
+
+
+.temperaments {
+    background-color: #17BEBB;
+    color: black;
+    border-radius: 20px;
+    border: black solid 1px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 850px;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+  }
+  
+  .temperamentsSelected {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 10px;
+  }
+  
+  .temperamentTag {
+    
+    display: flex;
+    align-items: center;
+    background-color: #FFC914;
+    border-radius: 4px;
+    padding: 5px;
+    font-weight: bold;
+  }
+  
+  .deleteButton {
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+
+
+input {
+    border-radius: 8px;
+    border: none;
+    margin: 10px 10px 0px 10px;
+    padding: 15px;
+}
+
+.button{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(255, 255, 255, 0.884);
+    color: rgb(9, 9, 9);
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 10px;
+    margin-top: 18px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.button:hover {
+    background-color: black;
+    color: #fff ;
+    border-radius: 4px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 50px;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #17BEBB;
+    color: #fff;
+    box-shadow: 0px 0px 8px 10px rgba(20, 20, 20, 0.5);
+} 
+
+.lista {
+    font-size: large;
+    align-items: center;
+}
+
+
+.toDeleteContainer {
+    display: flex;
+    margin-left: 160px;
+    margin-right: 40px;
+    justify-content: left;
+    align-items: center;
+    border-radius: 20px;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 10px;
+}
+
+.toDelete {
+    display: flex;
+    background-color: #FFC914;
+    border-radius: 4px;
+    margin-top: 1%;
+    margin-left: 40px;
+    margin-right: 40px;
+    width: 120px;
+    padding: 5px;
+    font-weight: bold;
+    justify-content: space-evenly;
+}
+
+.toDelete button{
+    padding: 2px;
+}
+
+.toDelete button:hover{
+    transition: 0.3s;
+    background-color: red;
+    color: white;
+}

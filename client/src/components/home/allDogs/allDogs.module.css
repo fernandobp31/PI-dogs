@@ -1,0 +1,147 @@
+.container{
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin: 10px;
+}
+
+.filters {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.filterByOrigin {
+    display: flex;
+    flex-direction: column;
+}
+.filterByOrigin div{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: #17BEBB;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0px 0px 8px 5px rgba(20, 20, 20, 0.5);
+}
+
+.filterByTemperament {
+    display: flex;
+    flex-direction: column;
+}
+.filterByTemperament div{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: #17BEBB;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0px 0px 8px 5px rgba(20, 20, 20, 0.5);
+}
+
+.orderByName {
+    display: flex;
+    flex-direction: column;
+}
+.orderByName div{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: #17BEBB;
+    color: #fff;
+    padding: 5px 20px 5px 20px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0px 0px 8px 5px rgba(20, 20, 20, 0.5);
+}
+
+.orderByWeight {
+    display: flex;
+    flex-direction: column;
+}
+.orderByWeight div{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: #17BEBB;
+    color: #fff;
+    padding: 5px 20px 20px 20px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0px 0px 8px 5px rgba(20, 20, 20, 0.5);
+}
+
+.orderByAverage {
+    display: flex;
+    flex-direction: column;
+}
+.orderByAverage div{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    background-color: #17BEBB;
+    color: #fff;
+    padding: 5px 20px 20px 20px;
+    text-align: center;
+    border-radius: 14px;
+    box-shadow: 0px 0px 8px 5px rgba(20, 20, 20, 0.5);
+}
+
+.pepitoJuarez {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%; 
+    margin-top: -120px;
+    margin-bottom: 50px;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding: 50px;
+    border-radius: 25px;
+    background-color: #17bebbdc;
+    background-size: auto;
+}
+.pepitoJuarez img{
+    width: 15%;
+    height: 15%;
+    margin-left: 0%;
+}
+
+.refButton {
+    justify-content: end;
+    width: auto;
+    height: 40px;
+    background: #17BEBB;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100px;
+    font-size: 15px;
+    margin-top: 0;
+    margin: 5px;  
+    cursor: pointer;
+    padding: 7px;
+    box-shadow: 0px 0px 8px 5px rgba(20, 20, 20, 0.5);
+    margin-right: 4.5%;
+  }
+
+.divGetAllB{
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .refButton:hover {
+    background: rgba(255, 255, 255, 0.884);
+    transition: 1s;
+    color: rgb(9, 9, 9);
+    border-radius: 4px; 
+  }
+

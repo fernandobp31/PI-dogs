@@ -1,0 +1,51 @@
+.Landing{
+    background-image: url("./dogslandingpage.jpg");
+    background-size: 100%;
+    border: #2E282A;
+    color: black;
+    border-radius: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+    height: 900px;
+    padding-bottom: 41px;
+    box-shadow: 0px 0px 0px 8px #FFC914;
+}
+
+.letters{
+    align-items: center;
+    align-content: stretch;
+    height: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    /*text-shadow: 0px 6px 0px #17BEBB;*/
+    text-shadow: 0px 6px 0px #FFC914;
+    color: #1d1b1c;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+    
+  }
+  
+  #button button{
+      border: 1px solid;
+      border-radius: 4%;
+      background: #2E282A;
+      border-color: #261f0f;
+      font-size: 25px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 200px;
+      height: 80px;
+      color: #FFC914;
+      position: fixed;
+      top: 50%;
+      left: 43%;
+    }
+  
+    #button button:hover {
+      transform: scale(1.1);
+      color: #17BEBB;
+    }

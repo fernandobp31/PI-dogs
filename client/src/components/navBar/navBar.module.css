@@ -1,0 +1,55 @@
+.mainContainer{
+    background: #FFC914;
+    box-shadow: 0 1px 10px 0 #2E282A;
+    backdrop-filter: blur( 11px );
+    -webkit-backdrop-filter: blur( 11px );
+    height: 60px;
+    display: flex;
+    justify-content :space-between;
+    align-items: center;
+}
+
+.home {
+    width: 200px;
+    height: 40px;
+    background: #FFF152;
+    border-radius: 4px;
+    color: rgb(9, 9, 9);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200px;
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;    
+    cursor: pointer;
+}
+
+.home:hover {
+    background: black;
+    transition: 1s;
+    color: black;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.createDogs{
+    width: 200px;
+    height: 40px;
+    background: #FFF152;
+    border-radius: 4px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200px;
+    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;    
+    cursor: pointer;
+
+}
+
+.createDogs:hover {
+    background: black;
+    transition: 1s;
+    color: black;
+    border-radius: 4px;
+    color: #fff;
+}
